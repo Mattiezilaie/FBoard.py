@@ -73,10 +73,6 @@ class FBoard:
             print(self.__board[i])
             print('')
 
-fb = FBoard();
-fb.move_x(1,4);
-fb.move_x(2,5);
-fb.move_o(7,0,6,1);
-print(fb.get_game_state());
+
 
 
