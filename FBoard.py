@@ -7,7 +7,7 @@
 # the x piece is.
 
 class FBoard:
-"""class to initialize the board"""
+    """class to initialize the board"""
     def __init__(self):
         self.__board = [['-' for i in range(8)] for j in range(8)]
         self.__board[7][0] = 'o'
